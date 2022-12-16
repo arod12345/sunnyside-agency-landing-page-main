@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg" />
+  <title>Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="sunnyside_style.css" />
+</head>
+
+<body>
+  <!-- primary header -->
+  <header draggable="true" class="primary-heading flex">
+    <div class="logo-holder">
+      <img src="images/logo.svg" alt="Sunnyside logo" />
+    </div>
+    <nav class="navigation flex">
+      <ul class="lists flex">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <button class="button">CONTACT</button>
+    </nav>
+    <button class="bt-1">
+      <img class="ham" src="images/icon-hamburger.svg" alt="menu"/>
+      <img style="display:none" class="close" src="images/minus-square.svg" alt="close menu">
+    </button>
+  </header>
+  <!-- primary header -->
+
+  <!-- main -->
+  <main class="main flex">
+    <!-- hero-section -->
+    <section class="hero-section flex">
+      <div class="hero-section-content flex">
+        <h1 class="content">We are creatives</h1>
+        <img src="images/icon-arrow-down.svg" alt="" />
+      </div>
+    </section>
+    <!-- hero-section -->
+
+    <!-- service-section -->
+    <section class="services-section grid">
+      <div class="cards flex c-1">
+        <div class="content-wrap flex">
+          <h1>
+            Transform your <br />
+            brand
+          </h1>
+          <p class="cards-detail">
+            We are a full-service creative agency specializing in helping
+            brands grow fast. Engage your clients through compelling visuals
+            that do most of the marketing for you.
+          </p>
+          <button class="btn flex">Learn more</button>
+        </div>
+      </div>
+      <div class="cards flex c-2">
+        <picture class="dope">
+          <source media="(max-width:425px )" srcset="images/mobile/image-transform.jpg">
+          <img loading="lazy" src="images/desktop/image-transform.jpg" alt="an egg on a yellow table" />
+        </picture>
+      </div>
+      <div class="cards flex c-3">
+        <picture class="dope">
+          <source media="(max-width:425px)" srcset="images/mobile/image-stand-out.jpg">
+          <img loading="lazy" src="images/desktop/image-stand-out.jpg" alt="a pink cup with a pink background" />
+        </picture>
+      </div>
+      <div class="cards flex c-4">
+        <div class="content-wrap flex">
+          <h1>
+            Stand out to the right <br />
+            audience
+          </h1>
+          <p class="cards-detail">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <button class="btn flex">Learn more</button>
+        </div>
+      </div>
+      <div class="cards c-5 flex">
+        <div class="content-wrap flex">
+          <h1>Graphic design</h1>
+          <p class="cards-detail">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+      </div>
+      <div class="cards flex c-6">
+        <div class="content-wrap flex trans">
+          <h1>Photography</h1>
+          <p class="cards-detail">
+            Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- service-section -->
+
+    <!--about-section -->
+    <section class="about-section flex">
+      <div class="title-part flex">
+        <h2>CLIENT TESTIMONIALS</h2>
+      </div>
+      <!-- testimonials -->
+      <div class="testimonial-cards flex">
+        <!-- cards -->
+        <div class="testi-cards flex">
+          <div class="client-pic">
+            <img src="images/image-emily.jpg" alt="a blonde women posing for photo" />
+          </div>
+          <div class="confess">
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure
+              our needs were met and deadlines were always hit.
+            </p>
+          </div>
+          <div class="identity">
+            <p>Emily R.</p>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <!-- cards -->
+
+        <!-- cards -->
+        <div class="testi-cards flex">
+          <div class="client-pic">
+            <img src="images/image-thomas.jpg" alt="a latino man posing for a portraite" />
+          </div>
+          <div class="confess">
+            <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+              enjoyable experience.</p>
+          </div>
+          <div class="identity">
+            <p>Thomas S.</p>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+        <!-- cards -->
+
+        <!-- cards -->
+        <div class="testi-cards flex">
+          <div class="client-pic">
+            <img src="images/image-jennie.jpg" alt="a women" />
+          </div>
+          <div class="confess">
+            <p> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+            </p>
+          </div>
+          <div class="identity">
+            <p>Jennie F.</p>
+            <p>Business Owner</p>
+          </div>
+        </div>
+        <!-- cards -->
+      </div>
+      <!-- testimonials -->
+    </section>
+    <!--about-section -->
+
+    <!-- photo-grid -->
+    <section class="photo-grid grid">
+      <div class="pics">
+        <picture class="images-con">
+          <source srcset="images/mobile/image-gallery-milkbottles.jpg" media="(max-width:425px)">
+          <img loading="lazy" src="images/desktop/image-gallery-milkbottles.jpg" alt="four white milkbottels with a red cap">
+        </picture>
+      </div>
+      <div class="pics">
+        <picture class="images-con">
+          <source srcset="images/mobile/image-gallery-orange.jpg" media="(max-width:425px)">
+          <img loading="lazy" src="images/desktop/image-gallery-orange.jpg" alt="an orange in a bwol">
+        </picture>
+      </div>
+      <div class="pics">
+        <picture class="images-con">
+          <source media="(max-width:425px)" srcset="images/mobile/image-gallery-cone.jpg">
+          <img loading="lazy" src="images/desktop/image-gallery-cone.jpg" alt="an empty ice cream cone">
+        </picture>
+      </div>
+      <div class="pics">
+        <picture class="images-con">
+          <source srcset="images/mobile/image-gallery-sugar-cubes.jpg" media="(max-width:425px)">
+          <img loading="lazy" src="images/desktop/image-gallery-sugarcubes.jpg" alt="many sugarcubes piled up with a pink background">
+        </picture>
+      </div>
+    </section>
+    <!-- photo-grid -->
+  </main>
+  <!-- main -->
+
+  <!-- footer -->
+  <footer class="foot flex">
+    <div class="foot-logo">
+      <img src="images/logo-foot.svg" alt="Sunnyside logo">
+    </div>
+    <nav class="foot-nav">
+      <ul class="lists flex">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="social-media-icons flex">
+      <a href="#"><img src="images/icon-facebook.svg" alt="icon-facebook"></a>
+      <a href="#"><img src="images/icon-instagram.svg" alt="icon-instagram"></a>
+      <a href="#"><img src="images/icon-twitter.svg" alt="icon-twitter"></a>
+      <a href="#"><img src="images/icon-pinterest.svg" alt="icon-pinterest"></a>
+    </div>
+  </footer>
+  <!-- footer -->
+  <script src="sunnyside-script.js"></script>
+</body>
+
+</html>
